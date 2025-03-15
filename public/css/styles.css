@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container {
+    max-width: 1200px;
+  }
+  
+  .btn{
+    max-height: 38px;
+  }
+
+  .pokemon-card {
+    background-color: #fff;
+    border-radius: 12px;
+  }
+  
+  .pokemon-image {
+    max-width: 300px;
+    height: auto;
+    padding: 25px;
+  }
+  
+  .pokemon-thumbnail {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  
+  .type-badge {
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .welcome-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  footer {
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #status-text {
+    transition: all 0.3s ease;
+  }
+
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+  }
