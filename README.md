@@ -4,6 +4,8 @@
 
 PokeInfo es una aplicación web que permite consultar y almacenar información sobre Pokemon. Esta herramienta combina una interfaz web con una base de datos MySQL para ofrecer un acceso rápido y eficiente a los datos. El sistema consulta la API oficial de Pokemon cuando se solicita información por primera vez, almacenándola en una base de datos local para optimizar consultas posteriores.
 
+![Screenshot](screenshots/screenshot1.png)
+
 ## Requisitos del Sistema
 
 Para ejecutar correctamente esta aplicación es necesario disponer del siguiente software:
@@ -47,6 +49,12 @@ Para la realización de este proyecto he hecho uso de las siguientes dependencia
 - **ejs**: Motor de plantillas para la generación de vistas HTML
 - **mysql2**: Conector para interactuar con la base de datos MySQL
 - **axios**: Cliente HTTP para realizar peticiones a la API de Pokemon
+
+A continuación se puede visualizar algunas capturas del proyecto: 
+
+![Screenshot](screenshots/screenshot2.png)
+
+![Screenshot](screenshots/screenshot3.png)
 
 ---------------------
 
